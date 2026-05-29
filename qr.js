@@ -20,7 +20,7 @@ function removeFile(FilePath) {
 router.get('/', async (req, res) => {
     const id = makeid();
  //   let num = req.query.number;
-    async function MALVIN_XD_PAIR_CODE() {
+    async function ASHEN_x_XD_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -70,9 +70,9 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "malvin~" + string_session;
+                        let md = "ashen~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, MALVIN-XD User!* 👋🏻
+                        let desc = `*Hey there, ASHEN-XD User!* 👋🏻
 
 Thanks for using *MALVIN-XD* — your session has been successfully created!
 
@@ -83,7 +83,7 @@ Thanks for using *MALVIN-XD* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+https://whatsapp.com/channel/0029VbCBCjU2Jl8L2pLwLO41
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
@@ -91,7 +91,7 @@ https://github.com/XdKing2/MALVIN-XD
 
 ——————
 
-> *© Powered by Malvin King*
+> *© Powered by ASHEN_x*
 Stay cool and hack smart. ✌🏻`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
@@ -108,7 +108,7 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Hey there, MALVIN-XD User!* 👋🏻
+                            let desc = `*Hey there, ASHEN-XD User!* 👋🏻
 
 Thanks for using *MALVIN-XD* — your session has been successfully created!
 
@@ -119,20 +119,19 @@ Thanks for using *MALVIN-XD* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
-
+https://whatsapp.com/channel/0029VbCBCjU2Jl8L2pLwLO41
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
 https://github.com/XdKing2/MALVIN-XD
 
-> *© Powered by Malvin King*
+> *© Powered by ASHEN_x*
 Stay cool and hack smart. ✌🏻*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴍᴀʟᴠɪɴ-xᴅ 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
-thumbnailUrl: "https://files.catbox.moe/bqs70b.jpg",
+title: "ASHEN-xᴅ 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
+thumbnailUrl: "https://files.catbox.moe/4251au.jpeg",
 sourceUrl: "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A",
 mediaType: 2,
 renderLargerThumbnail: true,
@@ -150,7 +149,7 @@ showAdAttribution: true
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10);
-                    MALVIN_XD_PAIR_CODE();
+                    ASHEN_XD_PAIR_CODE();
                 }
             });
         } catch (err) {
@@ -161,7 +160,7 @@ showAdAttribution: true
             }
         }
     }
-    await MALVIN_XD_PAIR_CODE();
+    await ASHEN_XD_PAIR_CODE();
 });
 setInterval(() => {
     console.log("☘️ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀...");
